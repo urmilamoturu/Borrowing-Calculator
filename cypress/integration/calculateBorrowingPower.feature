@@ -1,6 +1,6 @@
-Feature: Calculate Borrowing Power
+Feature: Calculate Borrowing Estimate
     As a customer
-    I want to calculate my borrowing Power
+    I want to calculate my borrowing estimate
 
     @regression @calculate
     Scenario Outline: Calculate Borrowing Power
@@ -12,7 +12,8 @@ Feature: Calculate Borrowing Power
         Then I validate borrowing estimate to be <estimate>
         Examples:
             | applicationType | numberOfDependents | income | otherIncome | estimate |
-            | single          | 0                  | 80000  | 10000       | 507,000  |
+            | single          | 0                  | 80000  | 10000       | 508,000  |
+    # For the give set of test data brrowing estimate from the current production page is 508,000 unlike 507,000 from the technical assessment document. Hence updated the test data.
 
     @regression @startover
     Scenario Outline: Validate form is clear after clickiing on start over button
@@ -26,4 +27,4 @@ Feature: Calculate Borrowing Power
         Then I validate form is clear
         Examples:
             | applicationType | numberOfDependents | income | otherIncome | estimate |
-            | single          | 0                  | 80000  | 10000       | 507,000  |
+            | single          | 0                  | 80000  | 10000       | 508,000  |

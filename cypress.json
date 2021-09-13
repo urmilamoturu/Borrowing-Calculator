@@ -20,6 +20,6 @@
     "reporterOptions": {
         "toConsole": true,
         "html": true,
-        "overwrite": false
+        "overwrite": true
     }
 }
