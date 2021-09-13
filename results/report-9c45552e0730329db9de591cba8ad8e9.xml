@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="51.5560" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-09-12T06:56:49" tests="0" file="cypress\integration\calculateBorrowingPower.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Calculate Borrowing Power" timestamp="2021-09-12T06:56:49" tests="2" time="51.5560" failures="0">
+    <testcase name="Calculate Borrowing Power Calculate Borrowing Power (example #1)" time="39.0390" classname="Calculate Borrowing Power (example #1)">
+    </testcase>
+    <testcase name="Calculate Borrowing Power Validate form is clear after clickiing on start over button (example #1)" time="12.5170" classname="Validate form is clear after clickiing on start over button (example #1)">
+    </testcase>
+  </testsuite>
+</testsuites>

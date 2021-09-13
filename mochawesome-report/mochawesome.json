@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-13T04:47:47.662Z",
+    "end": "2021-09-13T04:48:08.085Z",
+    "duration": 20423,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8a1ab458-e2ad-4633-bc6b-47609862fb0d",
+      "title": "",
+      "fullFile": "cypress\\integration\\calculateBorrowingPower.feature",
+      "file": "cypress\\integration\\calculateBorrowingPower.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9dc3f85c-99ec-453f-9493-e2c47be914c9",
+          "title": "Calculate Borrowing Power",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Calculate Borrowing Power (example #1)",
+              "fullTitle": "Calculate Borrowing Power Calculate Borrowing Power (example #1)",
+              "timedOut": null,
+              "duration": 10304,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d187a2c8-cf45-4e97-a257-51d94d8f221e",
+              "parentUUID": "9dc3f85c-99ec-453f-9493-e2c47be914c9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate form is clear after clickiing on start over button (example #1)",
+              "fullTitle": "Calculate Borrowing Power Validate form is clear after clickiing on start over button (example #1)",
+              "timedOut": null,
+              "duration": 7181,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "55325e41-c8b0-466f-87da-1c6b6ec02a50",
+              "parentUUID": "9dc3f85c-99ec-453f-9493-e2c47be914c9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d187a2c8-cf45-4e97-a257-51d94d8f221e",
+            "55325e41-c8b0-466f-87da-1c6b6ec02a50"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 17485,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "toConsole": true,
+        "html": true,
+        "overwrite": false
+      },
+      "version": "5.2.0"
+    }
+  }
+}

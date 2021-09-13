@@ -1,0 +1,25 @@
+{
+    "video": false,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requesttimeout": 60000,
+    "responseTimeout": 60000,
+    "waitForAnimation": true,
+    "fixturesFolder": "cypress/fixtures",
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    },
+    "testFiles": "*.feature",
+    "env": {
+        "url": "https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/"
+    },
+    "device": "",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "toConsole": true,
+        "html": true,
+        "overwrite": false
+    }
+}
