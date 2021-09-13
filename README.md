@@ -1,11 +1,3 @@
-# Introduction
-This project focuses on automated tests for Borrowing Calculator and contrbutes the quality check of the frontend web application.
-
-# Getting Started
-
-Cypress is a Javascript testing framework designed to perform end-to-end testing or UI testing a web application
-
-The cypress-cucumber-preprocessor adds support for using feature files when testing with Cypress.
 
 # Introduction
 This project focuses on automated tests for Borrowing Calculator and contrbutes the quality check of the frontend web application.
