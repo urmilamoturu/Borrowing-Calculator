@@ -17,7 +17,7 @@ The cypress-cucumber-preprocessor adds support for using feature files when test
 
 The above command will install all of the required packages for the project once after the cloning is successful
 
-_NOTE_: _**please install the packages from the root directory**
+_NOTE_:  **please install the packages from the root directory**
 
 Dependencies:
 

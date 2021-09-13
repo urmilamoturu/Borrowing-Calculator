@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="10.8180" tests="2" failures="0" skipped="1">
-  <testsuite name="Root Suite" timestamp="2021-09-12T06:48:30" tests="0" file="cypress\integration\calculateBorrowingPower.feature" time="0.0000" failures="0">
-  </testsuite>
-  <testsuite name="Calculate Borrowing Power" timestamp="2021-09-12T06:48:30" tests="2" time="10.8180" failures="0">
-    <testcase name="Calculate Borrowing Power Calculate Borrowing Power (example #1)" time="10.8180" classname="Calculate Borrowing Power (example #1)">
-    </testcase>
-  </testsuite>
-</testsuites>
